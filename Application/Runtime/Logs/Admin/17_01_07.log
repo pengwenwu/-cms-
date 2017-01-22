@@ -1,0 +1,66 @@
+[ 2017-01-07T09:28:23+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/cateList.html
+ERR: 模板不存在:./Application/Admin/View/Class/add.html
+
+[ 2017-01-07T09:32:58+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/cateList.html
+ERR: 模板不存在:./Application/Admin/View/Class/cateLList.html
+
+[ 2017-01-07T19:32:10+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/classAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'c_name' doesn't have a default value
+
+[ 2017-01-07T19:43:23+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/classAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'c_name' doesn't have a default value
+
+[ 2017-01-07T19:43:47+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/classAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'c_name' doesn't have a default value
+
+[ 2017-01-07T19:44:47+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/classAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'c_name' doesn't have a default value
+
+[ 2017-01-07T19:47:49+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/classAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'c_level' doesn't have a default value
+
+[ 2017-01-07T19:52:03+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T19:56:00+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T19:56:20+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:02:34+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:04:35+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-07T20:04:35+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-07T20:05:19+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-07T20:05:19+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-07T20:11:31+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:13:08+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:13:16+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:13:20+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Class/classList
+ERR: 非法操作:Class
+
+[ 2017-01-07T20:13:37+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Index/cateList
+ERR: 非法操作:Index
+
+[ 2017-01-07T20:14:22+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Index/cateList
+ERR: 非法操作:Index
+
+[ 2017-01-07T20:14:24+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/Index/cateList
+ERR: 非法操作:Index
+

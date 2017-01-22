@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/amp_ThinkPHP.iml" filepath="$PROJECT_DIR$/.idea/amp_ThinkPHP.iml" />
+      <module fileurl="file://E:/amp_items/.idea/amp_items.iml" filepath="E:/amp_items/.idea/amp_items.iml" />
+    </modules>
+  </component>
+</project>

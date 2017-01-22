@@ -1,0 +1,87 @@
+[ 2017-01-13T00:02:32+08:00 ] 127.0.0.1 /index.php/Admin/Auth/Auth/authList
+ERR: 非法操作:Auth
+
+[ 2017-01-13T00:05:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/Auth/authList
+ERR: 非法操作:Auth
+
+[ 2017-01-13T00:05:43+08:00 ] 127.0.0.1 /index.php/Admin/Auth/Auth/authList
+ERR: 非法操作:Auth
+
+[ 2017-01-13T01:04:45+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:05:45+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:06:13+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:06:21+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:06:29+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:06:33+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:08:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:08:43+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:10:33+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T01:11:57+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+
+[ 2017-01-13T17:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$auth_level' in 'where clause'
+
+[ 2017-01-13T17:24:12+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'role_auth_list' doesn't have a default value
+
+[ 2017-01-13T17:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleDel/role_id/4.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mg_role' in 'where clause'
+
+[ 2017-01-13T19:37:42+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+
+[ 2017-01-13T19:39:03+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+
+[ 2017-01-13T19:39:09+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+
+[ 2017-01-13T19:39:47+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+
+[ 2017-01-13T19:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'
+
+[ 2017-01-13T20:01:47+08:00 ] 127.0.0.1 /index.php/Admin/Class/columnAdd.html
+ERR: 非法操作:columnAdd
+
+[ 2017-01-13T20:02:14+08:00 ] 127.0.0.1 /index.php/Admin/Class/columnAdd.html
+ERR: 非法操作:columnAdd
+
+[ 2017-01-13T20:02:16+08:00 ] 127.0.0.1 /index.php/Admin/Class/columnAdd.html
+ERR: 非法操作:columnAdd
+
+[ 2017-01-13T20:48:33+08:00 ] 127.0.0.1 /index.php/Admin/Content/columnAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+[ 2017-01-13T20:48:58+08:00 ] 127.0.0.1 /index.php/Admin/Content/columnAdd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+[ 2017-01-13T22:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Content/commentList.html
+ERR: 非法操作:commentList
+
+[ 2017-01-13T22:53:17+08:00 ] 127.0.0.1 /index.php/Admin/Content/contentPublish.html
+ERR: 非法操作:contentPublish
+

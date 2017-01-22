@@ -1,0 +1,126 @@
+<include file="Public:header"/>
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+             <div class="heading-text">							
+							<h1 class="animated flipInY delay1">Start Online Education</h1>
+							<p>Free Online education template for elearning and online education institute.</p>
+						</div>
+            
+					<div class="fluid_container">                       
+                    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+                        <div data-thumb="__PUBLIC__/assets/images/slides/thumbs/img1.jpg" data-src="__PUBLIC__/assets/images/slides/img1.jpg">
+                            <h2>We develop.</h2>
+                        </div> 
+                        <div data-thumb="__PUBLIC__/assets/images/slides/thumbs/img2.jpg" data-src="__PUBLIC__/assets/images/slides/img2.jpg">
+                        </div>
+                        <div data-thumb="__PUBLIC__/assets/images/slides/thumbs/img3.jpg" data-src="__PUBLIC__/assets/images/slides/img3.jpg">
+                        </div> 
+                    </div><!-- #camera_wrap_3 -->
+                </div><!-- .fluid_container -->
+		</div>
+	</header>
+	<!-- /Header -->
+
+  <div class="container">
+    <div class="row">
+					<div class="col-md-3">
+						<div class="grey-box-icon">
+							<div class="icon-box-top grey-box-icon-pos">
+								<img src="__PUBLIC__/assets/images/1.png" alt="" />
+							</div><!--icon box top -->
+							<h4>在线课程</h4>
+              <p>数据结构</p>
+              <p>算法</p>
+							<p>面试技巧</p>
+     						<p><a href="{:U('Index/classes')}"><em>了解更多</em></a></p>
+						</div><!--grey box -->
+					</div><!--/span3-->
+					<div class="col-md-3">
+						<div class="grey-box-icon">
+							<div class="icon-box-top grey-box-icon-pos">
+								<img src="__PUBLIC__/assets/images/2.png" alt="" />
+							</div><!--icon box top -->
+							<h4>授课方式</h4>
+              <p>线上教学</p>
+              <p>指导学习方法</p>
+							<p>解决问题</p>
+     						<p><a href="{:U('Index/classes')}"><em>了解更多</em></a></p>
+						</div><!--grey box -->
+					</div><!--/span3-->
+					<div class="col-md-3">
+						<div class="grey-box-icon">
+							<div class="icon-box-top grey-box-icon-pos">
+								<img src="__PUBLIC__/assets/images/3.png" alt="" />
+							</div><!--icon box top -->
+							<h4>最新课程</h4>
+              <foreach name='class_list' item='v'>
+                <p>{$v['c_name']}</p>
+              </foreach>
+              
+     						<p><a href="{:U('Index/classes')}"><em>了解更多</em></a></p>
+						</div><!--grey box -->
+					</div><!--/span3-->
+					<div class="col-md-3">
+						<div class="grey-box-icon">
+							<div class="icon-box-top grey-box-icon-pos">
+								<img src="__PUBLIC__/assets/images/4.png" alt="" />
+							</div><!--icon box top -->
+							<h4>联系我们</h4>
+              <p>在线留言</p>
+              <p>联系方式</p>
+							<p>公司地址</p>
+     						<p><a href="{:U('Index/contact')}"><em>了解更多</em></a></p>
+						</div><!--grey box -->
+					</div><!--/span3-->
+				</div>
+    </div>
+      <section class="news-box top-margin">
+        <div class="container">
+            <h2><span>最新课程</span></h2>
+            <div class="row">
+                <foreach name='info' item='v'>
+                  <div class="col-lg-4 col-md-4 col-sm-12" style="height:260px;">
+                      <div class="newsBox">
+                          <div class="thumbnail">
+                              <figure><a href="{:U('Index/classes',array('class_id'=>$v['c_id']))}"><img src="{$v['c_pic']}" alt="" width="352" height="147"></a></figure>
+                              <div class="caption maxheight2">
+                              <div class="box_inner">
+                                          <div class="box">
+                                              <p class="title"><h5>{$v['c_name']}</h5></p>
+                                              <p>{$v['c_desc']}</p>
+                                          </div> 
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                
+                </foreach>
+            </div>
+        </div>
+    </section>
+	
+    <section class="container">
+    <div class="row">
+    	<div class="col-md-8"><div class="title-box clearfix "><h2 class="title-box_primary">关于我们</h2></div> 
+      <p><span>{$web_info['set_desc']}
+      </span></p>
+      <a href="{:U('Index/about')}" title="了解更多" class="btn-inline">了解更多</a> </div>
+            
+        
+        <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">即将上线</h2></div> 
+          <div class="list styled custom-list">
+          <ul>
+          <foreach name='adv_list' item='v'>
+            <li>{$v['adv_name']}</li>
+          </foreach>
+          </ul>
+          </div>
+       </div>
+    </div>
+    </section>
+      
+    <include file='Public:footer'/>
+    

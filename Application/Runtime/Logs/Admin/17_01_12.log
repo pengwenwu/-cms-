@@ -1,0 +1,42 @@
+[ 2017-01-12T09:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Advert/advPublish.html
+ERR: 无法加载控制器:Advert
+
+[ 2017-01-12T09:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Advert/advList.html
+ERR: 无法加载控制器:Advert
+
+[ 2017-01-12T10:51:43+08:00 ] 127.0.0.1 /index.php/Admin/Content/columnList.html
+ERR: 无法加载控制器:Content
+
+[ 2017-01-12T14:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Content/contentPublish.html
+ERR: 非法操作:contentPublish
+
+[ 2017-01-12T14:59:03+08:00 ] 127.0.0.1 /index.php/Admin/Content/articleList.html
+ERR: 非法操作:articleList
+
+[ 2017-01-12T14:59:03+08:00 ] 127.0.0.1 /index.php/Admin/Content/commentList.html
+ERR: 非法操作:commentList
+
+[ 2017-01-12T14:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Content/commentList.html
+ERR: 非法操作:commentList
+
+[ 2017-01-12T14:59:05+08:00 ] 127.0.0.1 /index.php/Admin/Content/msgList.html
+ERR: 非法操作:msgList
+
+[ 2017-01-12T16:05:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-01-12T16:05:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/pass.html
+ERR: 非法操作:pass
+
+[ 2017-01-12T16:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/book.html
+ERR: 非法操作:book
+
+[ 2017-01-12T16:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleEdit/role_id/1.html
+ERR: 非法操作:roleEdit
+
+[ 2017-01-12T16:55:06+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleEdit/role_id/1.html
+ERR: 非法操作:roleEdit
+
+[ 2017-01-12T16:55:11+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleEdit/role_id/2.html
+ERR: 非法操作:roleEdit
+

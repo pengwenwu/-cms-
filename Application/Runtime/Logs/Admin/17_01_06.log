@@ -1,0 +1,138 @@
+[ 2017-01-06T15:12:27+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/Class/showlist.html
+ERR: 非法操作:Class
+
+[ 2017-01-06T15:37:05+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/$v2.auth_c/$v2.auth_a.html
+ERR: 无法加载控制器:$v2.auth_c
+
+[ 2017-01-06T15:40:07+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/showlist.html
+ERR: 无法加载控制器:Class
+
+[ 2017-01-06T16:01:22+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/category.html
+ERR: 模板不存在:./Application/Admin/View/Class/category.html
+
+[ 2017-01-06T16:12:33+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/category.html
+ERR: 模板不存在:./Application/Admin/View/Class/category.html
+
+[ 2017-01-06T16:14:13+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T16:15:05+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T16:15:05+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T16:15:25+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T16:15:26+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T16:27:05+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/category.html
+ERR: 模板不存在:./Application/Admin/View/Class/category.html
+
+[ 2017-01-06T19:41:10+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/showlist.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'level' in 'where clause'
+
+[ 2017-01-06T20:06:26+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:09:36+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:33:47+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:34:01+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:34:04+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:34:11+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:38:07+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T21:40:07+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:15:36+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:15:40+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:15:42+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:15:42+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:25:40+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:02+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:02+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:12+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:25+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:52+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:35:56+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:38:15+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:40:22+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:40:50+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:40:50+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:42:28+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:44:07+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:44:07+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:44:15+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Index/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:46:58+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:50:34+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:50:34+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:50:58+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:50:58+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:51:21+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+
+[ 2017-01-06T22:51:21+08:00 ] 127.0.0.1 /cms_tp/index.php/Admin/Class/js/laydate/laydate.js
+ERR: 非法操作:js
+

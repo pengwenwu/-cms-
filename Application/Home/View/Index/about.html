@@ -1,0 +1,84 @@
+<include file='Public:header'/>
+
+ 	<header id="head" class="secondary">
+    <div class="container">
+        <h1><b>关于我们</b></h1>
+    </div>
+    </header>
+
+
+    <!-- container -->
+    <section class="container">
+        <div class="row">
+            <!-- main content -->
+            <section class="col-sm-8 maincontent">
+                <h3>详细介绍</h3>
+                <p>
+                    <img src="__PUBLIC__/assets/images/img9.jpg" alt="" class="img-rounded pull-right" width="300">
+                </p>
+                <p>{$info['set_content']}</p>
+                
+                <h3>大牛介绍</h3>
+                <foreach name='member_list' item='v'>
+                    <h4><b>{$v['m_name']}</b></h4>
+                    <p>{$v['m_desc']}</p>
+                </foreach>
+            </section>
+            <!-- /main -->
+
+            <!-- Sidebar -->
+            <aside class="col-sm-4 sidebar sidebar-right">
+
+                <div class="panel">
+                    <h4>热门新闻</h4>
+                    <ul class="list-unstyled list-spaces">
+                        <foreach name='news_list' item='v'>
+                             <li><a href="{:U('Index/news',array('news_id'=>$v['n_id']))}">{$v['n_name']}---点击率:{$v['n_count']}次</a><br>
+                            <span class="small text-muted">{$v['n_desc']}</span></li>
+                        </foreach>
+                    </ul>
+                </div>
+
+            </aside>
+            <!-- /Sidebar -->
+
+        </div>
+    </section>
+    <!-- /container -->
+    <section class="team-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>团队阵容</h3>
+                    <p>这里有来自各个领域的大神</p>
+                    <br />
+                </div>
+            </div>
+            <div class="row">
+                <foreach name='member_list2' item='v'>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <!-- Team Member -->
+                        <div class="team-member">
+                            <!-- Image Hover Block -->
+                            <div class="member-img">
+                                <!-- Image  -->
+                                <img src="{$v['m_pic']}" alt="" width="263" height="263">
+                            </div>
+                            <!-- Member Details -->
+                            <h4>{$v['m_name']}</h4>
+                            <!-- Designation -->
+                            <span class="pos">{$v['m_position']}</span>
+                            <div class="team-socials">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </foreach>
+            </div>
+        </div>
+    </section>
+  <include file='Public:footer'/>

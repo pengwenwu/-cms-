@@ -1,0 +1,54 @@
+<include file='Public:header'/>
+
+<header id="head" class="secondary">
+    <div class="container">
+        <h1>新闻中心</h1>
+    </div>
+</header>
+
+    
+	<div id="courses">
+		<section class="container">
+			<div class="row">
+
+			<!-- Article main content -->
+			<article class="col-md-8 maincontent">
+				<br>
+				<br>
+				<table width="100%" style="text-align: center;">
+					<tr><td><h2>{$info['n_name']}</h2></td></tr>
+					<tr align="center"><td>
+						作者：{$info['n_author']}&nbsp;&nbsp;&nbsp;
+						点击率：{$info['n_count']}&nbsp;&nbsp;&nbsp;
+						发布日期：{:date('Y-m-d H:i:s',$info['n_date'])}<br>
+					</td></tr>
+					<tr>
+						<td style='text-align:left;'>
+						<br>
+						<br>
+						{$info['n_content']}
+						</td>
+					</tr>
+				</table>
+				
+			</article>
+			<!-- /Article -->
+
+			<!-- Sidebar -->
+			<aside class="col-md-4 sidebar sidebar-right">
+				<div class="row panel">
+				<foreach name='list' item='v'>				
+					<div class="col-xs-12">
+						<p><a href="{:U('Index/news',array('news_id'=>$v['n_id']))}">{$v['n_name']}---{:date('Y-m-d H:i:s',$v['n_date'])}</a></p>
+					</div>
+				</foreach>
+				</div>
+			</aside>
+			<!-- /Sidebar -->
+
+		</div>
+
+		</section>
+	</div>
+    
+ <include file='Public:footer'/>

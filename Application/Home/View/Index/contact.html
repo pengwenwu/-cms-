@@ -1,0 +1,66 @@
+<include file='Public:header'/>
+	<!-- container -->
+	<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h3 class="section-title">留言板</h3>
+						<p>
+						您可以在这里提交您的联系信息和您的业务需求，我们的客服会在第一时间与您取得联系。
+						</p>
+						
+		<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+		<form method="post" action="{:U('Index/contact')}" name="sentMessage" id="contactForm"  novalidate> 
+		<div class="control-group">
+		<div class="controls">
+		<input type="text" class="form-control" name='m_name'
+		placeholder="您的姓名" id="name" required
+		data-validation-required-message="请输入您的姓名" />
+		<p class="help-block"></p>
+		</div>
+		</div> 	
+		<div class="control-group">
+		<div class="controls">
+		<input type="email" class="form-control" placeholder="邮箱地址" name='m_email'
+		id="email" required
+		data-validation-required-message="请输入您的邮箱地址" />
+		</div>
+		</div> 	
+
+		<div class="control-group">
+		<div class="controls">
+		<textarea rows="10" cols="100" class="form-control" name='m_content'
+		placeholder="留言" id="message" required
+		data-validation-required-message="请输入您的留言内容" minlength="5" 
+		data-validation-minlength-message="至少五个字符" 
+		maxlength="999" style="resize:none"></textarea>
+		</div>
+		</div> 		 
+		<div id="success"> </div> <!-- For success/fail messages -->
+		<button type="submit" class="btn btn-primary pull-right">提交</button><br />
+		</form>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<h3 class="section-title">联系我们</h3>
+								<div class="contact-info">
+									<h5><b>地址</b></h5>
+									<p>{$info['set_addr']}</p>
+									
+									<h5><b>邮箱</b></h5>
+									<p>{$info['set_email']}</p>
+
+									<h5><b>QQ</b></h5>
+									<p>{$info['set_qq']}</p>
+									
+									<h5><b>电话</b></h5>
+									<p>{$info['set_tel']}</p>
+								</div>
+							</div> 
+						</div> 						
+					</div>
+				</div>
+			</div>
+	<!-- /container -->
+
+<include file='Public:footer'/>
