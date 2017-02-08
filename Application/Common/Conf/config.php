@@ -25,4 +25,8 @@ return array(
     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
 
+
+    //redis配置
+    'REDIS_HOST' => 'localhost',
+    'REDIS_PORT' => '6379'
 );

@@ -1,0 +1,324 @@
+[ 2017-02-08T15:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0044s ]
+SQL: SELECT `mg_name` FROM `sw_manager` WHERE ( mg_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 ) ORDER BY auth_order_by  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 ) ORDER BY auth_order_by  [ RunTime:0.0106s ]
+NOTIC: [8] Undefined variable: p_menu_list E:\amp_ThinkPHP\Application\Admin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: s_menu_list E:\amp_ThinkPHP\Application\Admin\Controller\IndexController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-02-08T15:31:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-02-08T15:31:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2017-02-08T15:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/verifyImg.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2017-02-08T15:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0033s ]
+SQL: SELECT `mg_id`,`mg_name`,`mg_pwd`,`mg_role`,`mg_loading_count` FROM `sw_manager` WHERE ( mg_name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_auth_list` FROM `sw_role` WHERE ( role_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sw_manager` SET `mg_name`='admin',`mg_pwd`='207acd61a3c1bd506d7e9a4535359f8a',`mg_role`='1',`mg_loading_count`='20',`mg_loading_date`='1486539072' WHERE `mg_id` = 1 [ RunTime:0.0739s ]
+
+[ 2017-02-08T15:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0037s ]
+SQL: SELECT `mg_name` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 ) ORDER BY auth_order_by  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 ) ORDER BY auth_order_by  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-02-08T15:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0022s ]
+SQL: SELECT `mg_name`,`mg_register_date`,`mg_loading_date`,`mg_loading_count`,`mg_loading_ip`,`mg_role` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-02-08T20:59:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0025s ]
+SQL: SELECT `mg_name` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 ) ORDER BY auth_order_by  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 ) ORDER BY auth_order_by  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-02-08T20:59:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0031s ]
+SQL: SELECT `mg_name`,`mg_register_date`,`mg_loading_date`,`mg_loading_count`,`mg_loading_ip`,`mg_role` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-02-08T20:59:22+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0525s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0316s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2017-02-08T20:59:22+08:00 ] 127.0.0.1 /index.php/Admin/Class/cateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=0 ) LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT `c_id`,`c_name`,`c_order_by` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2017-02-08T20:59:23+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-02-08T20:59:24+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level = 1 )  [ RunTime:0.0195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-02-08T20:59:25+08:00 ] 127.0.0.1 /index.php/Admin/Auth/roleList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0025s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `sw_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-02-08T20:59:25+08:00 ] 127.0.0.1 /index.php/Admin/Auth/managerList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0029s ]
+SQL: SELECT `mg_id`,`mg_name`,`mg_email`,`mg_register_date`,`mg_loading_date`,`mg_role` FROM `sw_manager`  [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0036s ]
+SQL: SELECT `role_id`,`role_name` FROM `sw_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] A non well formed numeric value encountered E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\ba832cda2241bac3299c8540f1e9ee34.php 第 38 行.
+NOTIC: [8] A non well formed numeric value encountered E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\ba832cda2241bac3299c8540f1e9ee34.php 第 38 行.
+NOTIC: [8] A non well formed numeric value encountered E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\ba832cda2241bac3299c8540f1e9ee34.php 第 38 行.
+NOTIC: [8] A non well formed numeric value encountered E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\ba832cda2241bac3299c8540f1e9ee34.php 第 38 行.
+NOTIC: [8] A non well formed numeric value encountered E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\ba832cda2241bac3299c8540f1e9ee34.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+

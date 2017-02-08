@@ -4,6 +4,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
+use Think\Cache\Driver\Redis;
 class IndexController extends CommonController {
     public function index(){
     	//需要根据管理员的权限显示不同的菜单列表
@@ -28,9 +29,14 @@ class IndexController extends CommonController {
             $p_menu_list = $top_menus;
             $s_menu_list = $menu_list;
         }
-        $this->assign('p_menu_list',$p_menu_list);
-    	$this->assign('s_menu_list',$s_menu_list);
-    	$this->assign('admin_info',$admin_info);
+        $redis = new Redis();
+        $redis->select(0);
+        $redis->set('p_menu_list', $p_menu_list);
+        $redis->set('s_menu_list', $s_menu_list);
+        $redis->set('admin_info', $admin_info);
+        $this->assign('p_menu_list',$redis->get('p_menu_list'));
+    	$this->assign('s_menu_list',$redis->get('s_menu_list'));
+    	$this->assign('admin_info',$redis->get('admin_info'));
     	$this->display();
     }
         
