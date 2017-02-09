@@ -51,7 +51,7 @@
 			<article class="col-md-8 maincontent">
 				<br>
 				<br>
-				<table style="text-align: center;">
+				<table style="text-align: center;" width="100%">
 					<tr><td><h2><?php echo ($info['c_name']); ?></h2></td></tr>
 					<tr align="center"><td>
 						作者：<?php echo ($info['c_author']); ?>&nbsp;&nbsp;&nbsp;

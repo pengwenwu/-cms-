@@ -4,6 +4,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
+use \Michelf\Markdown;
 
 class ClassController extends CommonController{
 	/**
@@ -31,6 +32,13 @@ class ClassController extends CommonController{
 	public function classAdd(){
 		if(IS_POST){
 			$info = I('post.');
+			spl_autoload_register(function($class){
+				require preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+			});
+			//$text = file_get_contents('README.md');
+			$info['c_content'] = Markdown::defaultTransform(strip_tags($info['c_content']));
+			
+			
 			$info = $this->classFormHandle($info);
 			//处理数据之后插入
 			if(M('Class')->add($info)){
