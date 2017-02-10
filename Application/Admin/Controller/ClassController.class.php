@@ -5,6 +5,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use \Michelf\Markdown;
+use \Think\Cache\Driver\Redis;
 
 class ClassController extends CommonController{
 	/**
@@ -31,17 +32,16 @@ class ClassController extends CommonController{
 	 */
 	public function classAdd(){
 		if(IS_POST){
-			$info = I('post.');
+			$info = I('post.');	
 			spl_autoload_register(function($class){
-				require preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
-			});
-			//$text = file_get_contents('README.md');
-			$info['c_content'] = Markdown::defaultTransform(strip_tags($info['c_content']));
-			
-			
+                require preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+            });
+            $info['c_content'] = Markdown::defaultTransform($info['c_content']);
+          		
 			$info = $this->classFormHandle($info);
 			//处理数据之后插入
-			if(M('Class')->add($info)){
+			if($id = M('Class')->add($info)){
+				$this->makeHtml($id);
 				$this->success('课程添加成功',U('Class/classList'));exit();
 			} else {
 				$this->error('添加失败');
@@ -53,6 +53,21 @@ class ClassController extends CommonController{
 		$this->display();
 	}
 
+	/**
+	 * [制作静态化页面]
+	 * @param  [type] $id [description]
+	 * @return [type]     [description]
+	 */
+	private function makeHtml($id){
+		ob_start();
+		$info = M('Class')->find($id);
+		$this->assign('info',$info);
+		echo file_get_contents('http://'.$_SERVER['HTTP_HOST'].'/index.php/Home/Index/classes/class_id/'.$id.'.html');
+		$content = ob_get_contents();
+		//将缓冲区内容制作成静态页面
+		file_put_contents('./classes/'. $id .'.html', $content);
+		ob_end_clean(); //关闭并清空缓冲区
+	}
 	/**
 	 * 课程删除
 	 * @return [type] [description]
@@ -75,9 +90,15 @@ class ClassController extends CommonController{
 	public function classEdit(){
 		if(IS_POST){
 			$info = I('post.');
+			spl_autoload_register(function($class){
+                require preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
+            });
+            $info['c_content'] = Markdown::defaultTransform($info['c_content']);
+          
 			$info = $this->classFormHandle($info);
 			//处理数据之后插入
 			if(M('Class')->save($info)){
+				$this->makeHtml($info['c_id']);
 				$this->success('课程修改成功',U('Class/classList'));
 				exit();
 			} else {

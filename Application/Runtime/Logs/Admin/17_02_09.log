@@ -2280,3 +2280,1166 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
 
+[ 2017-02-09T15:57:14+08:00 ] 127.0.0.1 /index.php/Admin/Content/newsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `sw_news` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_news` LIMIT 1   [ RunTime:0.0732s ]
+SQL: SELECT * FROM `sw_news` ORDER BY n_date LIMIT 0,5   [ RunTime:0.0399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-02-09T15:57:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-02-09T15:57:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/verifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-02-09T15:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0545s ]
+SQL: SELECT `mg_id`,`mg_name`,`mg_pwd`,`mg_role`,`mg_loading_count` FROM `sw_manager` WHERE ( mg_name = 'admin' ) LIMIT 1   [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `sw_role` [ RunTime:0.0578s ]
+SQL: SELECT `role_auth_list` FROM `sw_role` WHERE ( role_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sw_manager` SET `mg_name`='admin',`mg_pwd`='207acd61a3c1bd506d7e9a4535359f8a',`mg_role`='1',`mg_loading_count`='22',`mg_loading_date`='1486627043' WHERE `mg_id` = 1 [ RunTime:0.0791s ]
+
+[ 2017-02-09T15:57:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0050s ]
+SQL: SELECT `mg_name` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0737s ]
+SQL: SHOW COLUMNS FROM `sw_auth` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=0 ) ORDER BY auth_order_by  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_auth` WHERE ( auth_level=1 ) ORDER BY auth_order_by  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-02-09T15:57:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `sw_manager` [ RunTime:0.0034s ]
+SQL: SELECT `mg_name`,`mg_register_date`,`mg_loading_date`,`mg_loading_count`,`mg_loading_ip`,`mg_role` FROM `sw_manager` WHERE ( mg_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-02-09T15:57:27+08:00 ] 127.0.0.1 /index.php/Admin/Content/newsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sw_news` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_news` ORDER BY n_date LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-02-09T15:57:30+08:00 ] 127.0.0.1 /index.php/Admin/Content/newsAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-02-09T15:57:34+08:00 ] 127.0.0.1 /index.php/Admin/Content/columnList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level=0 ) ORDER BY col_order_by  [ RunTime:0.0422s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level=1 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-02-09T15:57:35+08:00 ] 127.0.0.1 /index.php/Admin/Content/msgList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `sw_message` [ RunTime:0.0424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_message` LIMIT 1   [ RunTime:0.0165s ]
+SQL: SELECT * FROM `sw_message` ORDER BY m_date desc LIMIT 0,5   [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2017-02-09T15:57:36+08:00 ] 127.0.0.1 /index.php/Admin/Content/memberList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `sw_member` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sw_member` ORDER BY m_order_by  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: show E:\amp_ThinkPHP\Application\Admin\Controller\ContentController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-02-09T15:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Content/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-02-09T20:53:12+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0178s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002382s ]
+
+[ 2017-02-09T20:53:14+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0826s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-02-09T20:53:47+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.1070s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62','12121212','2112','&lt;p&gt;
+	# 一级标题
+&lt;/p&gt;
+&lt;p&gt;
+	## 二级标题
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;','50','1486644825','佚名','0','/Public/Uploads/Class/20170209/589c665ab8d86.jpg','1') [ RunTime:0.4300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+
+[ 2017-02-09T20:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-02-09T21:01:56+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0031s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-02-09T21:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0039s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62',' vcvc错','此次vc','<p>
+	# 一级标题
+</p>
+<p>
+	### 三级标题
+</p>
+<p>
+	<br />
+</p>
+<p>
+	&gt;引用
+</p>','50','1486645358','佚名','0','/Public/Uploads/Class/20170209/589c686f47cb7.png','1') [ RunTime:0.0672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-02-09T21:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0915s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2017-02-09T21:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0037s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-02-09T21:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0033s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62','擦擦擦','擦擦擦','<p>
+	# 以及
+</p>
+<p>
+	## 二级
+</p>
+<p>
+	```
+</p>
+<p>
+	code&nbsp;
+</p>
+<p>
+	```
+</p>','50','1486645584','佚名','0','/Public/Uploads/Class/20170209/589c695094eba.png','1') [ RunTime:0.0577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-02-09T21:06:25+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-02-09T21:10:36+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0224s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002262s ]
+
+[ 2017-02-09T21:10:37+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0368s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-02-09T21:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-02-09T21:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-09T21:14:43+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-02-09T21:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-02-09T21:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-02-09T21:16:55+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-02-09T21:17:11+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-02-09T21:17:17+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-02-09T21:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-02-09T21:17:37+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0032s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-02-09T21:18:32+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0146s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62','终极测试','终极测试','
+	# 一级标题
+
+
+	## 二级标题
+
+
+	```
+
+
+	code&nbsp;
+
+
+	```
+
+
+	[百度](http://www.baidu.com)
+','50','1486646311','佚名','0','/Public/Uploads/Class/20170209/589c6c28a33d1.jpg','1') [ RunTime:0.0806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-02-09T21:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-02-09T21:19:29+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0025s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 85 [ RunTime:0.3547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-02-09T21:19:31+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-02-09T21:19:32+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/84.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0028s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 84 [ RunTime:0.1268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-02-09T21:19:33+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-02-09T21:19:35+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/83.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0038s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 83 [ RunTime:0.0501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-02-09T21:19:36+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2017-02-09T21:19:38+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0022s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 82 [ RunTime:0.0595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-02-09T21:19:39+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-02-09T21:19:40+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0026s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-02-09T21:20:19+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0208s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62','markdown测试','测试','
+	# 一级标题
+ 
+
+	## 二级标题
+ 
+
+	```
+ 
+
+	code
+ 
+
+	```
+ ','50','1486646418','佚名','0','/Public/Uploads/Class/20170209/589c6c9303f64.jpg','1') [ RunTime:0.0623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-02-09T21:20:20+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-02-09T21:24:29+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0044s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-02-09T21:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Class/classAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\amp_ThinkPHP\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0029s ]
+SQL: INSERT INTO `sw_class` (`c_pid`,`c_name`,`c_desc`,`c_content`,`c_order_by`,`c_date`,`c_author`,`c_count`,`c_pic`,`c_level`) VALUES ('62','212','12','&lt;p&gt;
+	# yi&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	## er&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	### san&amp;nbsp;
+&lt;/p&gt;','50','1486646688','佚名','0','/Public/Uploads/Class/20170209/589c6da23992e.png','1') [ RunTime:0.0912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-02-09T21:24:51+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-02-09T21:28:15+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/87.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0039s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 87 [ RunTime:0.0464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-02-09T21:28:16+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2017-02-09T21:28:18+08:00 ] 127.0.0.1 /index.php/Admin/Class/classDel/class_id/86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0488s ]
+SQL: DELETE FROM `sw_class` WHERE `c_id` = 86 [ RunTime:0.0560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-02-09T21:28:20+08:00 ] 127.0.0.1 /index.php/Admin/Class/classList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_class` WHERE ( c_level=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level=1 ) ORDER BY c_order_by,c_date desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 ) ORDER BY c_order_by,c_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: iscid E:\amp_ThinkPHP\Application\Runtime\Cache\Admin\3f0c11e4f1ad0c5f4aac7da36126a423.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+

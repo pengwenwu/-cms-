@@ -41,7 +41,7 @@
 						<h3>{$v1['c_name']}</h3>
 						<foreach name='s_title' item='v2'>
 							<if condition="$v2['c_pid'] eq $v1['c_id']">
-								<p><a href="{:U('Index/classes',array('class_id'=>$v2['c_id']))}">{$v2['c_name']}</a></p>
+								<p><a href="http://{$Think.server.HTTP_HOST}/classes/{$v2['c_id']}.html">{$v2['c_name']}</a></p>
 							</if>
 						</foreach>
 					</div>
