@@ -201,4 +201,67 @@ class ContentController extends CommonController
 		$this->assign('info',$info);
 		$this->display();
 	}
+
+	//文件上传方法
+	public function uploadQN(){
+		$setting = C('UPLOAD_SITEIMG_QINIU');
+	    $Upload = new \Think\Upload($setting);
+	    $info = $Upload->upload($_FILES);
+	    return Qiniu_Sign($info['file']['url']);
+	}
+
+	public function resourceList(){
+		$count = M('Resource')->count(); //总记录条数
+		$Page = new \Think\Page($count,5);//实例化一个分页类
+		$info = M('Resource')->order('r_date desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+		$show = $Page->show();
+
+		$this->assign('page',$show);
+		$this->assign('info',$info);
+		$this->display();
+	}
+
+	public function resourceAdd(){
+		if(IS_POST){
+			$info = I('post.');
+			$info['r_date'] = strtotime($info['r_date']);
+			$info['r_size'] = round($_FILES['file']['size']/2024,2) . 'kb';
+ 			$info['r_url'] = $this->uploadQN();
+			if(M('Resource')->add($info)){
+				$this->success('添加成功',U('Content/resourceList'));
+				exit();
+			} else {
+				$this->error('添加失败');
+			}
+		}
+		$this->display();
+	}
+
+	public function resourceEdit(){
+		if(IS_POST){
+			$data = I('post.');
+			$data['r_date'] = strtotime($data['r_date']);
+			$data['r_size'] = round($_FILES['file']['size']/2024,2) . 'kb';
+ 			$data['r_url'] = $this->uploadQN();
+			if(M('Resource')->save($data)){
+				$this->success('修改成功',U('Content/resourceList'));exit();
+			} else {
+				$this->error('修改失败');
+			}
+		}
+
+		$id = I('get.res_id',0);
+		$info = M('Resource')->find($id);
+		$this->assign('info',$info);
+		$this->display();
+	}
+
+	public function resourceDel(){
+		$id = I('get.res_id',0);
+		if(M('Resource')->delete($id)){
+			$this->success('删除成功',U('Content/resourceList'));
+		} else {
+			$this->error('删除失败');
+		}
+	}
 }

@@ -36,122 +36,30 @@
 	</div>
 	<!-- /.navbar -->
 
-	<!-- Header -->
-	<header id="head">
-		<div class="container">
-             <div class="heading-text">							
-							<h1 class="animated flipInY delay1">Start Online Education</h1>
-							<p>Free Online education template for elearning and online education institute.</p>
-						</div>
-            
-					<div class="fluid_container">                       
-                    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-                        <div data-thumb="/Public/assets/images/slides/thumbs/img1.jpg" data-src="/Public/assets/images/slides/img1.jpg">
-                            <h2>We develop.</h2>
-                        </div> 
-                        <div data-thumb="/Public/assets/images/slides/thumbs/img2.jpg" data-src="/Public/assets/images/slides/img2.jpg">
-                        </div>
-                        <div data-thumb="/Public/assets/images/slides/thumbs/img3.jpg" data-src="/Public/assets/images/slides/img3.jpg">
-                        </div> 
-                    </div><!-- #camera_wrap_3 -->
-                </div><!-- .fluid_container -->
-		</div>
-	</header>
-	<!-- /Header -->
-
-  <div class="container">
-    <div class="row">
-					<div class="col-md-3">
-						<div class="grey-box-icon">
-							<div class="icon-box-top grey-box-icon-pos">
-								<img src="/Public/assets/images/1.png" alt="" />
-							</div><!--icon box top -->
-							<h4>在线课程</h4>
-              <p>数据结构</p>
-              <p>算法</p>
-							<p>面试技巧</p>
-     						<p><a href="<?php echo U('Index/classes');?>"><em>了解更多</em></a></p>
-						</div><!--grey box -->
-					</div><!--/span3-->
-					<div class="col-md-3">
-						<div class="grey-box-icon">
-							<div class="icon-box-top grey-box-icon-pos">
-								<img src="/Public/assets/images/2.png" alt="" />
-							</div><!--icon box top -->
-							<h4>授课方式</h4>
-              <p>线上教学</p>
-              <p>指导学习方法</p>
-							<p>解决问题</p>
-     						<p><a href="<?php echo U('Index/classes');?>"><em>了解更多</em></a></p>
-						</div><!--grey box -->
-					</div><!--/span3-->
-					<div class="col-md-3">
-						<div class="grey-box-icon">
-							<div class="icon-box-top grey-box-icon-pos">
-								<img src="/Public/assets/images/3.png" alt="" />
-							</div><!--icon box top -->
-							<h4>最新课程</h4>
-              <?php if(is_array($class_list)): foreach($class_list as $key=>$v): ?><p><?php echo ($v['c_name']); ?></p><?php endforeach; endif; ?>
-              
-     						<p><a href="<?php echo U('Index/classes');?>"><em>了解更多</em></a></p>
-						</div><!--grey box -->
-					</div><!--/span3-->
-					<div class="col-md-3">
-						<div class="grey-box-icon">
-							<div class="icon-box-top grey-box-icon-pos">
-								<img src="/Public/assets/images/4.png" alt="" />
-							</div><!--icon box top -->
-							<h4>联系我们</h4>
-              <p>在线留言</p>
-              <p>联系方式</p>
-							<p>公司地址</p>
-     						<p><a href="<?php echo U('Index/contact');?>"><em>了解更多</em></a></p>
-						</div><!--grey box -->
-					</div><!--/span3-->
-				</div>
+ 	<header id="head" class="secondary">
+    <div class="container">
+        <h1><b>下载中心</b></h1>
     </div>
-      <section class="news-box top-margin">
-        <div class="container">
-            <h2><span>最新课程</span></h2>
-            <div class="row">
-                <?php if(is_array($info)): foreach($info as $key=>$v): ?><div class="col-lg-4 col-md-4 col-sm-12" style="height:260px;">
-                      <div class="newsBox">
-                          <div class="thumbnail">
-                              <figure><a href="http://<?php echo ($_SERVER['HTTP_HOST']); ?>/classes/<?php echo ($v['c_id']); ?>.html"><img src="<?php echo ($v['c_pic']); ?>" alt="" width="352" height="147"></a></figure>
-                              <div class="caption maxheight2">
-                              <div class="box_inner">
-                                          <div class="box">
-                                              <p class="title"><h5><?php echo ($v['c_name']); ?></h5></p>
-                                              <p><?php echo ($v['c_desc']); ?></p>
-                                          </div> 
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div><?php endforeach; endif; ?>
-            </div>
+    </header>
+
+
+    <!-- container -->
+    <section class="container">
+        <div class="row">
+            <!-- main content -->
+            <section class="col-sm-8 maincontent">
+                <div class="panel">
+                    <h3>资源下载</h3>
+                    <ul class="list-unstyled list-spaces">
+                        <?php if(is_array($info)): foreach($info as $key=>$v): ?><li><a href="<?php echo ($v['r_url']); ?>"><?php echo ($v['r_title']); ?>---大小:<?php echo ($v['r_size']); ?>---日期:<?php echo date('Y-m-d H:i:s',$v['r_date']);?></a><br></li><?php endforeach; endif; ?>
+                    </ul>
+                </div>
+            </section>
+            <!-- /main -->
+
         </div>
     </section>
-	
-    <section class="container">
-    <div class="row">
-    	<div class="col-md-8"><div class="title-box clearfix "><h2 class="title-box_primary">关于我们</h2></div> 
-      <p><span><?php echo ($web_info['set_desc']); ?>
-      </span></p>
-      <a href="<?php echo U('Index/about');?>" title="了解更多" class="btn-inline">了解更多</a> </div>
-            
-        
-        <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">即将上线</h2></div> 
-          <div class="list styled custom-list">
-          <ul>
-          <?php if(is_array($adv_list)): foreach($adv_list as $key=>$v): ?><li><?php echo ($v['adv_name']); ?></li><?php endforeach; endif; ?>
-          </ul>
-          </div>
-       </div>
-    </div>
-    </section>
-      
-    <footer id="footer">
+  <footer id="footer">
  
 		<div class="container">
    <div class="row">

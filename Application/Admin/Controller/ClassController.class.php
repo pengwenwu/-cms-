@@ -5,7 +5,6 @@
 namespace Admin\Controller;
 use Think\Controller;
 use \Michelf\Markdown;
-use \Think\Cache\Driver\Redis;
 
 class ClassController extends CommonController{
 	/**

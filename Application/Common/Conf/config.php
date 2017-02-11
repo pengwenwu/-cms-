@@ -28,5 +28,19 @@ return array(
 
     //redis配置
     'REDIS_HOST' => 'localhost',
-    'REDIS_PORT' => '6379'
+    'REDIS_PORT' => '6379',
+
+    //七牛云配置
+    'UPLOAD_SITEIMG_QINIU' => array(
+        'maxSize' => 1024 * 1024 * 1024, //文件大小 1G
+        'rootPath' => './',
+        'saveName' => array('uniqid', ''),
+        'driver' => 'Qiniu',
+        'driverConfig' => array(
+            'secrectKey' => '4pEmQcMT_LEg6GVDfb1ZMObDtrFpkQ5tXJea0bWC',//SK
+            'accessKey' => '7wKCS_ICE3DpLfXE9IK-qZUyizAm9vGz71Zh6MbJ', //AK
+            'domain' => 'ol5x4lea9.bkt.clouddn.com', //空间名称.qiniudn.com
+            'bucket' => 'camp',//空间名称
+        )
+    )
 );

@@ -28,7 +28,7 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li   ><a href="/index.php/Home/Index/index.html">首页</a></li><li   ><a href="/index.php/Home/Index/about.html">关于我们</a></li><li class="active"  ><a href="/index.php/Home/Index/classes.html">课程中心</a></li><li   ><a href="/index.php/Home/Index/contact.html">联系我们</a></li>				</ul>
+					<li   ><a href="/index.php/Home/Index/index.html">首页</a></li><li   ><a href="/index.php/Home/Index/about.html">关于我们</a></li><li class="active"  ><a href="/index.php/Home/Index/classes.html">课程中心</a></li><li   ><a href="/index.php/Home/Index/contact.html">联系我们</a></li><li   ><a href="/index.php/Home/Index/download.html">资源下载</a></li>				</ul>
 			</div>
 			<!--/.nav-collapse -->
 		</div>
@@ -55,11 +55,14 @@
 					<tr align="center"><td>
 						作者：佚名&nbsp;&nbsp;&nbsp;
 						分类：MySQL&nbsp;&nbsp;&nbsp;
-						点击率：24&nbsp;&nbsp;&nbsp;
+						点击率：25&nbsp;&nbsp;&nbsp;
 						发布日期：2017-01-18 00:00:00					</td></tr>
 					<tr>
 						<td style='text-align:left;'>
-						<p><h3 style="font-size:18px;font-family:Helvetica, &quot;">
+						<p><p>
+    <br />
+</p>
+<h3 style="font-size:18px;font-family:Helvetica, &quot;">
     一、基本架构
 </h3>
 <p style="font-size:15px;font-family:Helvetica, &quot;">
@@ -85,22 +88,22 @@ MariaDB：国内用的不多
 </p>
 <ol style="font-family:Helvetica, &quot;font-size:15px;">
     <li>
-        max<em>connections mysql所允许的同时会话数 报错：Too many connections
+        max<em>connections mysql所允许的同时会话数 报错：Too many connections</em>
     </li>
     <li>
-        max</em>connect<em>erros 最大错误允许数 报错：FLUSH HOSTS 重启服务
+        <em>max</em>connect<em>erros 最大错误允许数 报错：FLUSH HOSTS 重启服务</em>
     </li>
     <li>
-        key</em>buffer<em>size 关键词缓冲区大小 缓存MyISAM索引块 索引处理速度 读取索引处理速度
+        <em>key</em>buffer<em>size 关键词缓冲区大小 缓存MyISAM索引块 索引处理速度 读取索引处理速度</em>
     </li>
     <li>
-        max</em>allowed<em>packet设置最大包 限制server接收数据块大小 避免超长SQL执行 信息包过大 关闭连接 丢失与MySQL服务器连接报错
+        <em>max</em>allowed<em>packet设置最大包 限制server接收数据块大小 避免超长SQL执行 信息包过大 关闭连接 丢失与MySQL服务器连接报错</em>
     </li>
     <li>
-        thread</em>cache<em>size 服务器线程缓存
+        <em>thread</em>cache<em>size 服务器线程缓存</em>
     </li>
     <li>
-        thread</em>concurrency CPU核数×2 MySQL不能很好利用多核处理器性能
+        <em>thread</em>concurrency CPU核数×2 MySQL不能很好利用多核处理器性能
     </li>
     <li>
         sort<em>buffer</em>size 每个连接需要使用buffer时分配的内存大小 不是越大越好
@@ -116,22 +119,22 @@ MariaDB：国内用的不多
     </li>
     <li>
         read<em>rnd</em>buffer<em>size 从排序好的数据中读取行时的，行数据从缓冲区读取 提升order by性能&nbsp;<br />
-注意：mysql会为每个客户端申请这个缓冲区，并发过大，设置过大，影响开销
+注意：mysql会为每个客户端申请这个缓冲区，并发过大，设置过大，影响开销</em>
     </li>
     <li>
-        myisam</em>sort<em>buffer</em>size：当MyISAM表发生变化时，重新排序，所需缓存
+        <em>myisam</em>sort<em>buffer</em>size：当MyISAM表发生变化时，重新排序，所需缓存
     </li>
     <li>
-        innodb<em>buffer</em>pool<em>size：InnoDB 使用缓存保存索引，原始数据，缓存大小，可以有效减少读取数据所需的磁盘IO
+        innodb<em>buffer</em>pool<em>size：InnoDB 使用缓存保存索引，原始数据，缓存大小，可以有效减少读取数据所需的磁盘IO</em>
     </li>
     <li>
-        nnodb</em>log<em>file</em>size：数据日志文件大小 大的值可以提高性能，但增加了恢复故障数据库的时间
+        <em>nnodb</em>log<em>file</em>size：数据日志文件大小 大的值可以提高性能，但增加了恢复故障数据库的时间
     </li>
     <li>
-        innodb<em>log</em>buffer<em>size：日志文件缓存 增大该值可以提高性能，但增大了忽然宕机损失数据的风险
+        innodb<em>log</em>buffer<em>size：日志文件缓存 增大该值可以提高性能，但增大了忽然宕机损失数据的风险</em>
     </li>
     <li>
-        innodb</em>flush<em>log</em>at<em>trx</em>commit：执行事务的时候，会往InnoDB存储引擎日志缓存中插入事务日志&nbsp;<br />
+        <em>innodb</em>flush<em>log</em>at<em>trx</em>commit：执行事务的时候，会往InnoDB存储引擎日志缓存中插入事务日志&nbsp;<br />
 写数据前先预写日志的方式 ：&nbsp;<br />
 0 每秒日志缓存写入文件 实时写入&nbsp;<br />
 1 缓存实时写入文件，文件实时写入磁盘&nbsp;<br />
@@ -139,22 +142,22 @@ MariaDB：国内用的不多
     </li>
     <li>
         innodb<em>lock</em>wait<em>timeout：被回滚前，一个InnoDB事务，应该等待一个锁被批准多久，InnoDB无法检测死锁发生，这时候用这个值有效&nbsp;<br />
-《高性能MySQL》
+《高性能MySQL》</em>
     </li>
 </ol>
 <h3 style="font-size:18px;font-family:Helvetica, &quot;">
-    四、软件优化
+    <em>四、软件优化</em>
 </h3>
 <ol style="font-family:Helvetica, &quot;font-size:15px;">
     <li>
-        选合适的引擎&nbsp;<br />
+        <em>选合适的引擎&nbsp;<br />
 a. MyISAM 索引顺序访问方法 支持全文索引 非事务安全 不支持外键 表级锁&nbsp;<br />
 三个文件FRM文件存放表结构 MYD文件存放数据 MYI存放索引&nbsp;<br />
 b. InnoDB 事务性存书引擎 行锁 InnoDB 回滚 崩溃恢复&nbsp;<br />
-ACID事务控制 表和索引放在一个空间里 表空间多个文件
+ACID事务控制 表和索引放在一个空间里 表空间多个文件</em>
     </li>
     <li>
-        正确使用索引&nbsp;<br />
+        <em>正确使用索引&nbsp;<br />
 a. 给合适的列建立索引 where子句 连接子句 而不是select选择列表建立索引&nbsp;<br />
 b. 索引值不尽相同 唯一值 索引效果最好 大量重复效果很差&nbsp;<br />
 c. 使用短索引 指定前缀长度 较小的索引,索引缓存一定，存的索引多，消耗磁盘IO更小，能提高查找速度&nbsp;<br />
@@ -163,36 +166,36 @@ e. like查询 索引失效 尽量少用like 千万级数据用like，Sphinx开�
 f. 不能滥用索引&nbsp;<br />
 1）索引占用空间&nbsp;<br />
 2）更新数据，索引必须更新，时间长 尽量不必要在长期不用的字段上建立索引&nbsp;<br />
-3）SQL执行一个查询语句，增加查询优化的时间
+3）SQL执行一个查询语句，增加查询优化的时间</em>
     </li>
     <li>
-        避免使用SELECT *&nbsp;<br />
+        <em>避免使用SELECT *&nbsp;<br />
 a. 返回结果多，降低查询的速度&nbsp;<br />
-b. 过多的返回结果,增大服务器返回给APP端的数据传输量.网络传输速度慢,弱网络环境下,容易造成请求实效
+b. 过多的返回结果,增大服务器返回给APP端的数据传输量.网络传输速度慢,弱网络环境下,容易造成请求实效</em>
     </li>
     <li>
-        字段尽量设置为NOT NULL
+        <em>字段尽量设置为NOT NULL</em>
     </li>
 </ol>
 <h3 style="font-size:18px;font-family:Helvetica, &quot;">
-    五、硬件优化
+    <em>五、硬件优化</em>
 </h3>
 <ol style="font-family:Helvetica, &quot;font-size:15px;">
     <li>
-        增加物理内存&nbsp;<br />
+        <em>增加物理内存&nbsp;<br />
 Linux内核 内存开缓存 存放数据&nbsp;<br />
 -写文件 文件延迟写入机制 先把文件放到缓存 达到一定程度写进硬盘&nbsp;<br />
--读文件 读文件到缓存 下次需要相同文件 从缓存文件中取 没有从硬盘中取
+-读文件 读文件到缓存 下次需要相同文件 从缓存文件中取 没有从硬盘中取</em>
     </li>
     <li>
-        增加应用缓存&nbsp;<br />
+        <em>增加应用缓存&nbsp;<br />
 a. 本地缓存&nbsp;<br />
 数据放到服务器内存或文件中&nbsp;<br />
 b. 分布式缓存&nbsp;<br />
-Redis Memcahce 读写性能非常高 QPS 1W以上 数据持久化 Redis 不持久化 两者都可以
+Redis Memcahce 读写性能非常高 QPS 1W以上 数据持久化 Redis 不持久化 两者都可以</em>
     </li>
     <li>
-        SSD代替机械硬盘&nbsp;<br />
+        <em>SSD代替机械硬盘&nbsp;<br />
 a. 日志和数据分开存储 日志顺序读写 机械硬盘 数据随机读写 SSD&nbsp;<br />
 b. 调参数 innodb</em>flush<em>method=O</em>DIRECT 操作系统禁用提高缓存 fsync 方式数据刷入机械硬盘&nbsp;<br />
 innodb<em>io</em>capacity=10000控制MySQL中一次刷新脏页的数量 SSD io增强 增大一次刷新脏页数量
@@ -247,6 +250,9 @@ Mycat部署 工作流程
 <p style="font-size:15px;font-family:Helvetica, &quot;">
     APP搜索商家，后台数据load居高不下&nbsp;<br />
 解决方案:like 查询无索引导致 Sphinx Coreseek开源全文检索
+</p>
+<p>
+    <br />
 </p></p>
 						</td>
 					</tr>
@@ -264,7 +270,7 @@ Mycat部署 工作流程
 						<h3>MySQL</h3>
 						<p><a href="http://www.mytp.com/classes/65.html">MySQL优化</a></p>					</div><div class="col-xs-12">
 						<h3>日常</h3>
-						<p><a href="http://www.mytp.com/classes/68.html">面试技巧和项目分析</a></p><p><a href="http://www.mytp.com/classes/69.html">职业方向划分</a></p><p><a href="http://www.mytp.com/classes/98.html">静态化测试</a></p>					</div><div class="col-xs-12">
+						<p><a href="http://www.mytp.com/classes/68.html">面试技巧和项目分析</a></p><p><a href="http://www.mytp.com/classes/69.html">职业方向划分</a></p>					</div><div class="col-xs-12">
 						<h3>Linux</h3>
 						<p><a href="http://www.mytp.com/classes/59.html">初步了解Linux</a></p>					</div><div class="col-xs-12">
 						<h3>Java</h3>

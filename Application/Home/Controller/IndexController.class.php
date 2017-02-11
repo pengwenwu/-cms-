@@ -95,4 +95,9 @@ EOF;
         $this->display();
     }
 
+    public function download(){
+        $info = M('Resource')->order('r_date desc')->select();
+        $this->assign('info',$info);
+        $this->display();
+    }
 }

@@ -1,0 +1,28 @@
+<include file='Public:header'/>
+
+ 	<header id="head" class="secondary">
+    <div class="container">
+        <h1><b>下载中心</b></h1>
+    </div>
+    </header>
+
+
+    <!-- container -->
+    <section class="container">
+        <div class="row">
+            <!-- main content -->
+            <section class="col-sm-8 maincontent">
+                <div class="panel">
+                    <h3>资源下载</h3>
+                    <ul class="list-unstyled list-spaces">
+                        <foreach name='info' item='v'>
+                             <li><a href="{$v['r_url']}">{$v['r_title']}---大小:{$v['r_size']}---日期:{:date('Y-m-d H:i:s',$v['r_date'])}</a><br></li>
+                        </foreach>
+                    </ul>
+                </div>
+            </section>
+            <!-- /main -->
+
+        </div>
+    </section>
+  <include file='Public:footer'/>

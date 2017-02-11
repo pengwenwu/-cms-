@@ -1,0 +1,1121 @@
+[ 2017-02-11T00:09:36+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2017-02-11T00:09:37+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486742976801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T00:09:47+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486742986358
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T00:11:01+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2017-02-11T00:11:02+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486743061350
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T00:12:39+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-02-11T00:12:41+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486743159982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T09:48:15+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0080s ]
+SQL: SELECT `c_id`,`c_name`,`c_desc`,`c_pic` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by,c_date desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_advert` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sw_advert` ORDER BY adv_date desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `c_name` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2017-02-11T09:48:18+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-02-11T09:48:19+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486777698488
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T09:52:45+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-02-11T09:52:46+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486777965836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:04:50+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2017-02-11T10:04:51+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486778690582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:22:32+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2017-02-11T10:22:33+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486779752493
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:24:45+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-02-11T10:24:46+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486779885280
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:26:40+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-02-11T10:26:41+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486780000258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:30:20+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+SQL: SELECT `set_addr`,`set_email`,`set_qq`,`set_tel` FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-02-11T10:30:22+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486780220982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:30:23+08:00 ] 127.0.0.1 /index.php/Home/Index/classes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0055s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0008s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 76 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sw_class` SET `c_count`='25' WHERE ( c_id = 76 ) [ RunTime:0.0918s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2017-02-11T10:30:25+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486780224005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:31:06+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/69.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0045s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0005s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sw_class` SET `c_count`='6' WHERE ( c_id = 69 ) [ RunTime:0.0814s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-02-11T10:31:19+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/68.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0028s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sw_class` SET `c_count`='21' WHERE ( c_id = 68 ) [ RunTime:0.0778s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-02-11T10:31:33+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/66.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0072s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 66 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sw_class` SET `c_count`='9' WHERE ( c_id = 66 ) [ RunTime:0.1165s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-02-11T10:31:45+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0076s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 65 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sw_class` SET `c_count`='25' WHERE ( c_id = 65 ) [ RunTime:0.0850s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-02-11T10:31:59+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0035s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0005s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 67 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sw_class` SET `c_count`='7' WHERE ( c_id = 67 ) [ RunTime:0.2517s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-02-11T10:32:12+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0082s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 64 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `sw_class` SET `c_count`='29' WHERE ( c_id = 64 ) [ RunTime:0.2308s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-02-11T10:32:31+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0069s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 59 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `sw_class` SET `c_count`='12' WHERE ( c_id = 59 ) [ RunTime:0.1719s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-02-11T10:32:44+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0025s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sw_class` SET `c_count`='97' WHERE ( c_id = 63 ) [ RunTime:0.1216s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2017-02-11T10:32:57+08:00 ] 127.0.0.1 /index.php/Home/Index/classes/class_id/76.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0097s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0009s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 76 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sw_class` SET `c_count`='26' WHERE ( c_id = 76 ) [ RunTime:0.1126s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2017-02-11T10:33:00+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0982s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0041s ]
+SQL: SELECT `c_id`,`c_name`,`c_desc`,`c_pic` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by,c_date desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_advert` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_advert` ORDER BY adv_date desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `c_name` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-02-11T10:33:02+08:00 ] 127.0.0.1 /index.php/Home/Index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+SQL: SELECT `set_content` FROM `sw_setting` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_member` ORDER BY m_order_by  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sw_member` ORDER BY m_order_by LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_news` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_news` ORDER BY n_count desc LIMIT 10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-02-11T10:33:03+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486780382897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:33:05+08:00 ] 127.0.0.1 /index.php/Home/Index/classes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0077s ]
+SQL: SELECT `c_id` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc  [ RunTime:0.0007s ]
+SQL: SELECT `c_id`,`c_name`,`c_pid`,`c_content`,`c_date`,`c_author`,`c_count` FROM `sw_class` WHERE `c_id` = 76 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sw_class` SET `c_count`='27' WHERE ( c_id = 76 ) [ RunTime:0.0954s ]
+SQL: SELECT `c_id`,`c_name` FROM `sw_class` WHERE ( c_level=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 0 ) ORDER BY c_order_by  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-02-11T10:33:06+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486780385302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T10:33:14+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0058s ]
+SQL: SELECT `c_id`,`c_name`,`c_desc`,`c_pic` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by,c_date desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sw_advert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_advert` ORDER BY adv_date desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `c_name` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc LIMIT 3   [ RunTime:0.0337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-02-11T11:20:36+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-02-11T11:20:37+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783236415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T11:20:39+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SELECT `set_addr`,`set_email`,`set_qq`,`set_tel` FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-02-11T11:20:40+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783239755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T11:20:41+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_class` [ RunTime:0.0064s ]
+SQL: SELECT `c_id`,`c_name`,`c_desc`,`c_pic` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_order_by,c_date desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_advert` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sw_advert` ORDER BY adv_date desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `c_name` FROM `sw_class` WHERE ( c_level = 1 ) ORDER BY c_date desc LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-02-11T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_resource` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_resource` ORDER BY r_date desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-02-11T11:20:45+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783244123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783257561
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0001s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T11:21:10+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783269254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.2397s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0004s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T11:21:11+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486783269848
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+
+[ 2017-02-11T14:00:28+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+SQL: SELECT `set_addr`,`set_email`,`set_qq`,`set_tel` FROM `sw_setting` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-02-11T14:00:30+08:00 ] 127.0.0.1 /index.php/Home/Index/undefined?1486792829267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `sw_setting` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `sw_setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sw_column` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `sw_column` WHERE ( col_level = 0 ) ORDER BY col_order_by  [ RunTime:0.0002s ]
+ERR: 非法操作:undefined
+

@@ -28,7 +28,7 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li   ><a href="/index.php/Home/Index/index.html">首页</a></li><li   ><a href="/index.php/Home/Index/about.html">关于我们</a></li><li class="active"  ><a href="/index.php/Home/Index/classes.html">课程中心</a></li><li   ><a href="/index.php/Home/Index/contact.html">联系我们</a></li>				</ul>
+					<li   ><a href="/index.php/Home/Index/index.html">首页</a></li><li   ><a href="/index.php/Home/Index/about.html">关于我们</a></li><li class="active"  ><a href="/index.php/Home/Index/classes.html">课程中心</a></li><li   ><a href="/index.php/Home/Index/contact.html">联系我们</a></li><li   ><a href="/index.php/Home/Index/download.html">资源下载</a></li>				</ul>
 			</div>
 			<!--/.nav-collapse -->
 		</div>
@@ -55,11 +55,14 @@
 					<tr align="center"><td>
 						作者：佚名&nbsp;&nbsp;&nbsp;
 						分类：NoSQL&nbsp;&nbsp;&nbsp;
-						点击率：23&nbsp;&nbsp;&nbsp;
+						点击率：26&nbsp;&nbsp;&nbsp;
 						发布日期：2017-02-09 10:46:17					</td></tr>
 					<tr>
 						<td style='text-align:left;'>
 						<p><p>
+    <br />
+</p>
+<p>
     [TOC]
 </p>
 <h3>
@@ -199,73 +202,73 @@ set集合类型、enm枚举类型
 即对于lname，fname，age三个字段使用多列索引之后，在执行的sql语句中，对于(lname, fanme, age)和(lname, fname)和(lname)这样的组合才会调用该多列索引。
             </li>
             <li>
-                模糊查询左原则。使用like模糊差查询时，默认会使索引失效，除非使用like 'abc%'或者like 'abc<em>'这样的形式，而不是like '%abc%'
+                模糊查询左原则。使用like模糊差查询时，默认会使索引失效，除非使用like 'abc%'或者like 'abc<em>'这样的形式，而不是like '%abc%'</em>
             </li>
             <li>
-                OR原则。在执行语句OR左右两侧的关联条件必须要具备索引，整体才会使用索引，否则不会用到索引。
-例如：select * from tablename where name = 'abc' or age &gt; 10; 需要name和age都有索引，整体才会调用索引
+                <em>OR原则。在执行语句OR左右两侧的关联条件必须要具备索引，整体才会使用索引，否则不会用到索引。
+例如：select * from tablename where name = 'abc' or age &gt; 10; 需要name和age都有索引，整体才会调用索引</em>
             </li>
         </ul>
     </li>
     <li>
         <p>
-            索引设计的依据
+            <em>索引设计的依据</em>
         </p>
         <ul>
             <li>
-                被频繁执行的sql语句
+                <em>被频繁执行的sql语句</em>
             </li>
             <li>
-                执行时间较长的sql语句
+                <em>执行时间较长的sql语句</em>
             </li>
             <li>
-                业务逻辑比较重要的sql语句（比如：支付宝2小时内返现的业务逻辑）
+                <em>业务逻辑比较重要的sql语句（比如：支付宝2小时内返现的业务逻辑）</em>
             </li>
         </ul>
     </li>
 </ol>
 <h3>
-    如何确定索引前缀的长度呢？
+    <em>如何确定索引前缀的长度呢？</em>
 </h3>
 <p>
-    数据表的总记录数/不重复的索引数目 = 比值比值越接近于1或者趋于稳定，则说明选择性越好，不重复的值的行数越接近于总记录数select count(*) / (count(distinct left(field, len)));
+    <em>数据表的总记录数/不重复的索引数目 = 比值比值越接近于1或者趋于稳定，则说明选择性越好，不重复的值的行数越接近于总记录数select count(*) / (count(distinct left(field, len)));</em>
 </p>
 <h3>
-    使用全文索引
+    <em>使用全文索引</em>
 </h3>
 <p>
-    普通sql语句模糊查询，不能使用全文索引
-复合全文索引的使用select * from article where match(title, body) against ('mysql');
+    <em>普通sql语句模糊查询，不能使用全文索引
+复合全文索引的使用select * from article where match(title, body) against ('mysql');</em>
 </p>
 <h3>
-    开启查询缓存
+    <em>开启查询缓存</em>
 </h3>
 <p>
-    show variables like "%query%"; //开启查询缓存，设置缓存大小
+    <em>show variables like "%query%"; //开启查询缓存，设置缓存大小
 show status like "%Qcache%";//查看缓存空间状态
 reset query cache;//清空缓存- 当query<em>cache</em>size=0时，不能缓存
 - 当数据表或者数据有变动时（增加、减少、修改），会引起缓存失效- 当sql语句中有变动的信息，就不能使用缓存
    例如：事件信息now()、随机数rand()
-- 相同结果的sql语句，如果语句中大小写、空格等有变化，会生成多个缓存- 针对特殊语句，需要不进行缓存，需要在语句中加入sql</em>no<em>cache例如：select sql<em>no</em>cache * from table where id = 2;
+- 相同结果的sql语句，如果语句中大小写、空格等有变化，会生成多个缓存- 针对特殊语句，需要不进行缓存，需要在语句中加入sql</em>no<em>cache例如：select sql<em>no</em>cache * from table where id = 2;</em>
 </p>
 <h3>
-    分表/分区
+    <em>分表/分区</em>
 </h3>
 <h4>
-    数据表拆分后，需要考虑如何操作这些数据表
+    <em>数据表拆分后，需要考虑如何操作这些数据表</em>
 </h4>
 <p>
-    php-------------([手动/mysql]算法)------------数据表(分表)
+    <em>php-------------([手动/mysql]算法)------------数据表(分表)</em>
 </p>
 <p>
-    手动算法：需要在php语言中设计逻辑操作，增加php语言的代码工作量
-mysql算法：php不需要额外操作就可以像往常一样操作同一个数据表的不同分区
+    <em>手动算法：需要在php语言中设计逻辑操作，增加php语言的代码工作量
+mysql算法：php不需要额外操作就可以像往常一样操作同一个数据表的不同分区</em>
 </p>
 <h4>
-    创建一个"分表/分区"数据表
+    <em>创建一个"分表/分区"数据表</em>
 </h4>
 <p>
-    设计分区的字段，需要是主键的一部分create table goods(
+    <em>设计分区的字段，需要是主键的一部分create table goods(
     id int auto</em>increament,
     name varchar(32) not null,
     ....
@@ -285,8 +288,7 @@ hash：根据指定的表达式进行分区设计
     <li>
         条件：
 range：字段/表达式  符合某个条件范围的分区设计
-list：字段/表达式  符合某个列表范围的分区设计
-<code>create table goods(
+list：字段/表达式  符合某个列表范围的分区设计create table goods(
 id int auto_increament,
 name varchar(32) not null,
 pubdate datetime not null default '0000-00-00',
@@ -319,46 +321,52 @@ partition by list(month(pubdate)) (
     partitions spring  values in(3,4,5),
     partitions summer  values in(6,7,8),
     ...
-);</code>
-</p>
-<h4>
-    管理分区
-</h4>
-<ul>
-    <li>
-        求余（key、hash）算法管理
+);
+        <p>
+            <br />
+        </p>
+        <h4>
+            管理分区
+        </h4>
+        <ul>
+            <li>
+                求余（key、hash）算法管理
 增加分区：alter table 表名 add partition partitions 数量;
 减少分区：alter table 表名coalescepartition 数量;减少分区，数据要丢失
-    </li>
-    <li>
-        条件（range、list）算法管理
+            </li>
+            <li>
+                条件（range、list）算法管理
 增加分区：alter table 表名 add partition(
     partition 分区名 values less than[in] (常量[列表]),
     ...
 )
-    </li>
-    <li>
-        减少分区：alter table 表名 drop partition 分区名;
-    </li>
-</ul>
-<h3>
-    架构(集群)设计
-</h3>
-<p>
-    主从复制(读写分离)
-</p>
-<h3>
-    慢查询日志
-</h3>
-<p>
-    开启慢查询日志，设置时间阈值(set 后面没有global)
-<code>show variables like 'slow&lt;em&gt;query%';
+            </li>
+            <li>
+                减少分区：alter table 表名 drop partition 分区名;
+            </li>
+        </ul>
+        <h3>
+            架构(集群)设计
+        </h3>
+        <p>
+            主从复制(读写分离)
+        </p>
+        <h3>
+            慢查询日志
+        </h3>
+        <p>
+            开启慢查询日志，设置时间阈值(set 后面没有global)show variables like 'slow&lt;em&gt;query%';
 set global slow&lt;/em&gt;query_log = 1;
 &lt;/p&gt;
 &lt;p&gt;
     show variables like 'long&lt;em&gt;query%';
-set long&lt;/em&gt;query_time  = 2;</code>
-</p></p>
+set long&lt;/em&gt;query_time  = 2;
+        </p>
+        <p>
+            <br />
+        </p>
+    </li>
+</ul></p>
 						</td>
 					</tr>
 				</table>
@@ -375,7 +383,7 @@ set long&lt;/em&gt;query_time  = 2;</code>
 						<h3>MySQL</h3>
 						<p><a href="http://www.mytp.com/classes/65.html">MySQL优化</a></p>					</div><div class="col-xs-12">
 						<h3>日常</h3>
-						<p><a href="http://www.mytp.com/classes/68.html">面试技巧和项目分析</a></p><p><a href="http://www.mytp.com/classes/69.html">职业方向划分</a></p><p><a href="http://www.mytp.com/classes/98.html">静态化测试</a></p>					</div><div class="col-xs-12">
+						<p><a href="http://www.mytp.com/classes/68.html">面试技巧和项目分析</a></p><p><a href="http://www.mytp.com/classes/69.html">职业方向划分</a></p>					</div><div class="col-xs-12">
 						<h3>Linux</h3>
 						<p><a href="http://www.mytp.com/classes/59.html">初步了解Linux</a></p>					</div><div class="col-xs-12">
 						<h3>Java</h3>
